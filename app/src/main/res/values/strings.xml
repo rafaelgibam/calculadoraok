@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="valores">valores</string>
+    <string name="resultado">resultado</string>
+    <string name="Raiz" >Raiz</string>
+    <string name="igual">CALCULAR</string>
+    <string name="subtrair">-</string>
+    <string name="soma">+</string>
+    <string name="divisao">/</string>
+    <string name="potencia">x2</string>
+    <string name="multiplica">*</string>
+    <string name="c">c</string>
+    <string name="ce">ce</string>
+    <string name="ponto">.</string>
+    <string name="um">1</string>
+    <string name="dois">2</string>
+    <string name="tres">3</string>
+    <string name="quatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="sete">7</string>
+    <string name="oito">8</string>
+    <string name="nove">9</string>
+    <string name="zero">0</string>
+</resources>
