@@ -2,8 +2,6 @@ package br.com.desdev.calculadora
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.Math.pow
 import java.lang.Math.sqrt
@@ -21,7 +19,10 @@ class MainActivity : AppCompatActivity() {
         telavalor.setText("")
 
         limparc.setOnClickListener{
-            telavalor.setText("")
+            var txttela = telavalor.text.toString()
+            if(txttela.length > 0){
+                telavalor.setText(txttela.substring(0,txttela.length - 1))
+            }
         }
 
         limparce.setOnClickListener {
